@@ -32,7 +32,7 @@ const careServices = [
 
 const Services = () => {
   return (
-    <div>
+    <div className='flex-wrap'>
       {/* Header Section */}
       <section className="bg-[#daf7f2] px-4 md:px-20 py-14 text-center text-black">
         <h1 className="text-4xl font-bold mb-4">

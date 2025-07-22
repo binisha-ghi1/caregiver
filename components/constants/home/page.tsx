@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="flex flex-col lg:flex-row justify-between items-center bg-[#f0f9fb] text-black px-6 py-12 md:px-12 lg:px-20 gap-10">
+      <div className="flex flex-col  lg:flex-row justify-between items-center bg-[#f0f9fb] text-black px-6 py-12 md:px-12 lg:px-20 gap-10">
         {/* Left Content */}
         <div className="flex flex-col space-y-6 w-full lg:w-1/2">
           {/* Top Badge */}

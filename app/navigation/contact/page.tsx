@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       {/* Contact Heading Section */}
-      <section className="bg-[#e6f7f7] py-16 px-6 md:px-20 text-center">
+      <section className="bg-[#e6f7f7] py-16 px-6 md:px-20 text-center flex-wrap">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
             Contact <span className="text-blue-600">CareHeart</span>
@@ -66,7 +66,6 @@ const Contact = () => {
     <div className="flex-1">
       <label className="block text-gray-700 font-medium mb-2">Service Needed</label>
       <select className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#3ec5c5] text-gray-700">
-        <option value="">Select a service</option>
         <option value="medical">Medical Care</option>
         <option value="companion">Companion Care</option>
         <option value="meal preparation">Meal Preparation</option>
@@ -81,7 +80,6 @@ const Contact = () => {
   <div>
     <label className="block text-gray-700 font-medium mb-2">How Soon Do You Need Service?</label>
     <select className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#3ec5c5] text-gray-700">
-      <option value="">Select timeframe</option>
       <option value="immediate">Immediately</option>
       <option value="week">Within a week</option>
       <option value="month">Within a month</option>
@@ -148,7 +146,7 @@ const Contact = () => {
                 <FaMapMarkerAlt className="text-2xl text-blue-500 mt-1" />
                 <div>
                   <h3 className="font-semibold text-black">Address</h3>
-                  <p className="text-blue-600 font-medium">123 Care Street, Wellness City, WC 12345</p>
+                  <p className="text-blue-600 font-medium">123 CareHeart, Kathmandu, Nepal</p>
                   <p className="text-gray-600 text-sm">Visit our office during business hours</p>
                 </div>
               </div>

@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white pt-10 px-6 md:px-16">
+    <footer className="bg-gray-800 text-white pt-10 px-6 md:px-16 flex-wrap">
       {/* Top Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 pb-10 border-b border-gray-700">
         {/* About Section */}
@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="flex items-start gap-2 text-gray-300">
             <MapPin className="w-5 h-5 text-blue-400 mt-1" />
             <p>
-              123 Healthcare Drive <br />
+              123 CareHeart <br />
               Kathmandu, Nepal
             </p>
           </div>

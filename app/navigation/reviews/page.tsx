@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 const reviews = [
   {
     image: '/assets/images/sara.jpg',
-    text: "LiveCare has been a blessing for our family. The caregivers are not only professional but also genuinely care about the well-being of my mother.",
+    text: "CareHeart has been a blessing for our family. The caregivers are not only professional but also genuinely care about the well-being of my mother.",
     author: "Sarah J.",
     relation: "Daughter of Resident",
     rating: 5,
@@ -28,14 +28,14 @@ const reviews = [
   },
   {
     image: '/assets/images/john.jpg',
-    text: "Choosing LiveCare was the best decision. The team is professional, kind, and always available to address any concerns.",
+    text: "Choosing CareHeart was the best decision. The team is professional, kind, and always available to address any concerns.",
     author: "John D.",
     relation: "Son of Resident",
     rating: 5,
   },
   {
     image: '/assets/images/lisa.jpg',
-    text: "LiveCare has provided my father with the support he needs. The caregivers are attentive and treat him like family.",
+    text: "CareHeart has provided my father with the support he needs. The caregivers are attentive and treat him like family.",
     author: "Lisa M.",
     relation: "Daughter of Resident",
     rating: 4,
@@ -56,7 +56,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="bg-gray-50 px-6 md:px-20 py-14 text-center">
+    <div className="bg-gray-50 px-6 md:px-20 py-14 text-center flex-wrap">
       <h2 className="text-4xl font-bold text-black mb-2">What Our Clients Say</h2>
       <p className="text-gray-600 mb-10">Read the experiences of our satisfied clients and their families.</p>
 

@@ -30,7 +30,7 @@ const About = () => {
   return (
     <>
       {/* About Banner */}
-      <section className="bg-[#daf7f2] py-16 px-6 md:px-20 text-center">
+      <section className="bg-[#daf7f2] py-16 px-6 md:px-20 text-center flex-wrap">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
             About <span className="text-[#3ec5c5]">CareHeart</span>

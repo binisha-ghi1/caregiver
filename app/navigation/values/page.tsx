@@ -13,7 +13,7 @@ const values = [
 const Values = () => {
   return (
     <>
-      <section className="bg-white py-16 px-6 md:px-20 text-center">
+      <section className="bg-white py-16 px-6 md:px-20 text-center flex-wrap">
         <div className="max-w-6xl mx-auto">
          
 

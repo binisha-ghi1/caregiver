@@ -12,7 +12,7 @@ const List = [
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center bg-white text-black px-6 md:px-20 py-10 gap-10">
+    <div className="flex flex-col  flex-wrap lg:flex-row items-center justify-center bg-white text-black px-6 md:px-20 py-10 gap-10">
       {/* Image Section */}
       <div className="w-full lg:w-1/2">
         <img

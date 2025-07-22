@@ -44,7 +44,7 @@ const careServices = [
 
 const AdditionalService = () => {
   return (
-    <div className="bg-gray-50 px-6 md:px-20 py-14">
+    <div className="bg-gray-50 px-6 md:px-20 py-14 flex-wrap">
       <h2 className="text-4xl text-black font-bold text-center mb-4">Additional Support Services</h2>
       <p className="text-center text-gray-600 mb-10">
         Complementary services to ensure comprehensive care and support for daily activities.

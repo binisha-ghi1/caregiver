@@ -31,7 +31,7 @@ const WhyChooseCareGiver = [
 
 const Reason = () => {
   return (
-    <div className=" px-6 md:px-20 py-14">
+    <div className=" px-6 md:px-20 py-14 flex-wrap">
       <h2 className="text-4xl font-bold text-center text-black mb-4">
         Why Choose CareHeart?
       </h2>
