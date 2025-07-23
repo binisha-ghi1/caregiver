@@ -11,6 +11,7 @@ const Navbar = () => {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Services', href: '/navigation/Services' },
+    { label: 'Gallery', href: '/navigation/gallery' },
     { label: 'About', href: '/navigation/about' },
     { label: 'Contact', href: '/navigation/contact' },
   ];
@@ -21,7 +22,7 @@ const Navbar = () => {
     <nav className="bg-white text-black font-semibold px-6 py-4 shadow-md">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-800">CareHeart</div>
+        <div className="text-2xl font-bold text-blue-800">SBI</div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-10">
