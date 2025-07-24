@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 pb-10 border-b border-gray-700">
         {/* About Section */}
         <div className="space-y-4">
-          <h2 className="text-xl font-bold">CareHeart</h2>
+          <h2 className="text-xl font-bold">SBI</h2>
           <p className="text-gray-300">
             Providing compassionate, professional healthcare services for over 15 years.
             Your family's wellbeing is our highest priority.
@@ -38,7 +38,6 @@ const Footer = () => {
             'Medical Support',
             'Companion Care',
             'Memory Care',
-            'Respite Care',
             'Emergency Care',
           ].map((service, i) => (
             <p
@@ -56,7 +55,7 @@ const Footer = () => {
           <div className="flex items-start gap-2 text-gray-300">
             <MapPin className="w-5 h-5 text-blue-400 mt-1" />
             <p>
-              123 CareHeart <br />
+              SBI <br />
               Kathmandu, Nepal
             </p>
           </div>
