@@ -1,13 +1,18 @@
-import React from 'react';
-import { CheckCircle } from 'lucide-react';
+import React from "react";
+import { CheckCircle } from "lucide-react";
 
 const List = [
-  { point: 'Modern rooms that can be personalized with your own furniture.' },
-  { point: '24/7 medical care and support from our professional staff.' },
-  { point: 'A wide range of activities and programs to keep you engaged and active.' },
-  { point: 'Regular health check-ups and monitoring to ensure your well-being.' },
-  { point: 'Personalized care plans designed to meet your specific needs.' },
-  { point: 'Pet-friendly environment to keep your furry companions close.' },
+  { point: "Modern rooms that can be personalized with your own furniture." },
+  { point: "24/7 medical care and support from our professional staff." },
+  {
+    point:
+      "A wide range of activities and programs to keep you engaged and active.",
+  },
+  {
+    point: "Regular health check-ups and monitoring to ensure your well-being.",
+  },
+  { point: "Personalized care plans designed to meet your specific needs." },
+  { point: "Pet-friendly environment to keep your furry companions close." },
 ];
 
 const AboutSection = () => {
@@ -45,4 +50,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
