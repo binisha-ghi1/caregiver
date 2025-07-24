@@ -1,31 +1,31 @@
-import React from 'react';
+import React from "react";
 import {
   CalendarClock,
   ShieldCheck,
   Users2,
   HeartHandshake,
-} from 'lucide-react'; // ✅ Make sure to install this package if not already
+} from "lucide-react"; // ✅ Make sure to install this package if not already
 
 const WhyChooseCareGiver = [
   {
     icon: CalendarClock,
-    title: 'Flexible Scheduling',
-    description: 'Care plans tailored to your schedule and needs',
+    title: "Flexible Scheduling",
+    description: "Care plans tailored to your schedule and needs",
   },
   {
     icon: ShieldCheck,
-    title: 'Licensed & Insured',
-    description: 'All caregivers are fully licensed and insured',
+    title: "Licensed & Insured",
+    description: "All caregivers are fully licensed and insured",
   },
   {
     icon: Users2,
-    title: 'Family Involvement',
-    description: 'Regular communication and family meetings',
+    title: "Family Involvement",
+    description: "Regular communication and family meetings",
   },
   {
     icon: HeartHandshake,
-    title: 'Compassionate Care',
-    description: 'Genuine care and emotional support',
+    title: "Compassionate Care",
+    description: "Genuine care and emotional support",
   },
 ];
 
@@ -36,7 +36,8 @@ const Reason = () => {
         Why Choose CareHeart?
       </h2>
       <p className="text-center text-gray-600 mb-10">
-        We go beyond basic care to provide comprehensive support that makes a real <br className="hidden md:block" />
+        We go beyond basic care to provide comprehensive support that makes a
+        real <br className="hidden md:block" />
         difference.
       </p>
 
@@ -62,4 +63,3 @@ const Reason = () => {
 };
 
 export default Reason;
-
